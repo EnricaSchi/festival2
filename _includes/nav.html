@@ -25,12 +25,16 @@
       Menu<i class="fas fa-bars"></i>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav text-uppercase ml-auto">
+      {% if site.locale and site.locale != "" and site.locale != nil %}
+        {%- for link in site.data.navigation[site.locale].nav -%}
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">ABOUT</a>
-        </li>
-        <li>
-            <a
+          {%- if link.url -%}
+          <a class="nav-link js-scroll-trigger" href="{{ link.url }}"
+            >{{ link.title }}</a
+          >
+          {%- else if link.section -%}
+          <a
             class="nav-link js-scroll-trigger"
             href="{{ site.baseurl }}/#{{ link.section }}"
             >{{ link.title }}</a
