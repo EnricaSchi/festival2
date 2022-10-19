@@ -11,10 +11,10 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Jatacaušca
-    text: Lizzano Summer Fest!
+    title: Lizzano Summer Fest!
+    text: Jatacaušca
     button: Tell Me More
-    buttonlink: "#services"
+    buttonlink: "#about"
 
 
   portfolio:
