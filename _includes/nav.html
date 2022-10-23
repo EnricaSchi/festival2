@@ -22,12 +22,11 @@
         {%- for link in site.data.navigation[site.locale].nav -%}
         <li class="nav-item">
           {%- if link.url -%}
-          <a class="nav-link js-scroll-trigger" href="#about"
-            >{{ about }}</a>
+          <a class="nav-link js-scroll-trigger" href="#about">{{ About }}</a>
           {%- else if link.section -%}
-          <a class="nav-link" href="#timeline">{{ Line Up }}</a>
+          <a class="nav-link js-sroll-trigger" href="#timeline">{{ Line Up }}</a>
           {%- else -%}
-          <a class="nav-link js-scroll-trigger" href="#timeline">{{ link.title }}</a>
+          <a class="nav-link js-scroll-trigger" href="#portfolio">{{ Portfolio }}</a>
           {%- endif -%}
         </li>
         {%- endfor -%}
@@ -35,15 +34,9 @@
         {%- for link in site.data.navigation.nav -%}
         <li class="nav-item">
           {%- if link.url -%}
-          <a class="nav-link js-scroll-trigger" href="portfolio"
-            >{{ link.title }}</a
-          >
+          <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
           {%- else if link.section -%}
-          <a
-            class="nav-link js-scroll-trigger"
-            href="{{ site.baseurl }}/#{{ link.section }}"
-            >{{ link.title }}</a
-          >
+          <a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}/#{{ link.section }}">{{ link.title }}</a>
           {%- else -%}
           <a class="nav-link js-scroll-trigger" href="#contact">{{ link.title }}</a>
           {%- endif -%}
