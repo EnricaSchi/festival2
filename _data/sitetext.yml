@@ -20,14 +20,14 @@ en: &DEFAULT_EN
   portfolio:
     title: "Portfolio"
     text: "Lorem ipsum dolor sit amet consectetur."
-    section: portfolio
-    closebutton: "Close Project"
-    
+    section:
+
 
   timeline:
     title: "Line Up"
     text: "Lorem ipsum timeline"
     section: timeline
+    buttonlink: "#timeline"
 
     # left is the default
     #start_align: "left"
@@ -57,9 +57,9 @@ en: &DEFAULT_EN
     end: "Be Part <br> of Our <br> Story!"
 
   about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    title: "Il Festival più caldo dell'estate!"
+    text: ""
+    body: ""
     section: about
 
   clients:
