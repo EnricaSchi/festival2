@@ -14,33 +14,14 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav text-uppercase ml-auto">
-      {% if site.locale and site.locale != "" and site.locale != nil %}
-      {% for link in site.data.navigation[site.locale].nav %}
         <li class="nav-item">
-          {%- if link.url -%}
-            <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title}}</a>
-          {%- else if link.section -%}
-            <a class="nav-link js-scroll-trigger" href="#{{ link.section }}">{{ link.title }}</a>
-          {%- else -%}
-            <a class="nav-link js-scroll-trigger active" href="#about">{{ About }}</a>
-          {%- endif -%}
-          <a class="navbar-brand" class="js-scroll-trigger" href="#"></a>
-        </li>
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          <li class="nav-item">
+          <a class="nav-link js-sroll-trigger" href="#timeline">Line Up</a>
+         <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
 
-      {% endfor %}
-      {% else %}
-      {% for link in site.data.navigation.nav %}
-      <li class="nav-item">
-        {%- if link.url -%}
-          <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
-        {%- else if link.section -%}
-          <a class="nav-link js-scroll-trigger" href="#{{ link.section }}">{{ link.title }}</a>
-        {%- else -%}
-          <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
-        {%- endif -%}
-      </li>
-      {% endfor %}
-      {% endif %}
+        </li>
       </ul>
     </div>
   </div>
