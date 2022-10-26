@@ -1,5 +1,11 @@
 // Global styling for this template
 body {
+  background-image: linear-gradient(rgb(153, 0, 0), rgb(204, 51, 0), rgb(204, 204, 0));
+  overflow-x: hidden;
+  @include body-font;
+}
+
+section {
   overflow-x: hidden;
   @include body-font;
 }
