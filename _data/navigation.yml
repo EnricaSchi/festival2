@@ -15,6 +15,7 @@ en: &DEFAULT_EN
       section: about
     - title: "Line Up"
       section: timeline
+      -title: "Portfolio"
 
 en-US:
   <<: *DEFAULT_EN
