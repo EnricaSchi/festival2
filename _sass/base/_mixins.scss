@@ -1,21 +1,21 @@
 // Font Mixins
 @mixin serif-font {
-  font-family: "Rockwell black", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Rockwell black", -apple-system, BlinkMacSystemFont, "Rockwell black",
+    Roboto, "Rockwell black", Arial, sans-serif, "Rockwell black",
+    "Rockwell black", "Rockwell blackRockwell black", "Rockwell black";
 }
 @mixin script-font {
-  font-family: "Rockwell black", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Rockwell black", -apple-system, BlinkMacSystemFont, "Rockwell black",
+    Roboto, "Rockwell black", Arial, sans-serif, "Rockwell black",
+    "Rockwell black", "Rockwell black", "Rockwell black";
 }
 @mixin body-font {
-  font-family: "Rockwell black" /*'Roboto Slab',*/ -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+  font-family: "Rockwell black" /*'Roboto Slab',*/ -apple-system, BlinkMacSystemFont, "Rockwell black",
+    Roboto, "Rockwell black", Arial, sans-serif, "Rockwell black",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 @mixin heading-font {
-  font-family: "Rockwell black", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+  font-family: "Rockwell black", -apple-system, BlinkMacSystemFont, "Rockwell black",
+    Roboto, "Rockwell black", Arial, sans-serif, "Rockwell black",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }

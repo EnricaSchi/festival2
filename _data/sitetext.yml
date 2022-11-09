@@ -17,6 +17,7 @@ en: &DEFAULT_EN
     buttonlink: "#about"
 
 
+
   portfolio:
     title: "Portfolio"
     text: "Lorem ipsum dolor sit amet consectetur."
