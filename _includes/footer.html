@@ -5,7 +5,7 @@
     <div class="row align-items-center">
       <div class="col-md-4">
         <span class="copyright"
-          >Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span
+          >All product names, logos and photos are property of their respective owners.</span
         >
       </div>
       <!-- Social Media -->
@@ -17,6 +17,7 @@
             <a href="{{ link.url }}">
               {% if link.icon %}<i class="{{ link.icon }}"></i>{% endif %}
             </a>
+
             {% endif %}
           </li>
           {% endfor %}
@@ -26,10 +27,10 @@
       <div class="col-md-4">
         <ul class="list-inline quicklinks">
           <li class="list-inline-item">
-            <a href="legal"
-              >{{ site.data.sitetext[site.locale].footer.legal | default:
-              "Privacy Policy" }}</a
-            >
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+            <img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" />
+          </a><br />Quest'opera è distribuita con Licenza <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+            Creative Commons Attribuzione - Non commerciale - Non opere derivate 4.0 Internazionale</a>
           </li>
         </ul>
       </div>
@@ -38,7 +39,7 @@
     <div class="row align-items-center">
       <div class="col-md-4">
         <span class="copyright"
-          >Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span
+          ></span
         >
       </div>
       <!-- Social Media -->
