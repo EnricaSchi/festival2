@@ -15,7 +15,7 @@ p {
 }
 
 a {
-  color: $primary;
+  color:$primary ;
   &:hover {
     color: darken($primary, 10%);
   }
@@ -45,7 +45,7 @@ h6 {
   h3.section-subheading {
     font-size: 16px;
     font-weight: 400;
-    font-style: italic;
+    font-style: rockwell;
     margin-bottom: 75px;
     text-transform: none;
     @include serif-font;

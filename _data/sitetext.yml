@@ -13,8 +13,6 @@ en: &DEFAULT_EN
   header:
     title: Lizzano Summer Fest!
     text: Jatacaušca
-    button: Tell Me More
-    buttonlink: "#about"
 
 
 
@@ -26,7 +24,7 @@ en: &DEFAULT_EN
 
   timeline:
     title: "Line Up"
-    text: "Lorem ipsum timeline"
+    text: ""
     section: timeline
     buttonlink: "#timeline"
 

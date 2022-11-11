@@ -14,7 +14,7 @@
           {% for link in site.data.sitetext[site.locale].footer.social %}
           <li class="list-inline-item">
             {% if link.url %}
-            <a href="{{ link.url }}">
+            <a href="{{ link.url }}" target="_blank">
               {% if link.icon %}<i class="{{ link.icon }}"></i>{% endif %}
             </a>
 
@@ -27,7 +27,7 @@
       <div class="col-md-4">
         <ul class="list-inline quicklinks">
           <li class="list-inline-item">
-          <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">
             <img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" />
           </a>
           <br/>Quest'opera è distribuita con Licenza <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
@@ -49,7 +49,7 @@
           {% for link in site.data.sitetext.footer.social %}
           <li class="list-inline-item">
             {% if link.url %}
-            <a href="{{ link.url }}">
+            <a href="{{ link.url }}" target="_blank">
               {% if link.icon %}<i class="{{ link.icon }}"></i>{% endif %}
             </a>
             {% endif %}
